@@ -3,22 +3,20 @@
 }
 
 body {
-  height: 100%;
-  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/109/333/original/image_%2821%29.jpg?1704443709");
-  height: 50%;
-  position: relative;
+
   opacity: 0.65;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 140px 0;
+  padding: 200px 0;
+  margin:60px auto;
 }
 
 header h1 {
@@ -63,6 +61,7 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+  background-color: #F8F8F8;
 }
 
 main h3 {
