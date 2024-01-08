@@ -70,13 +70,13 @@ section {
   padding: 70px;
 }
 
-h3 {
+main h3 {
   font-size: 23px;
   font-weight: 700;
   letter-spacing: 5px;
   opacity: 0.3;
 }
-h2 {
+main h2 {
   font-size: 40px;
 
   font-weight: 700;
@@ -91,7 +91,8 @@ main p {
   opacity: 0.7;
 }
 
-main a {
+main a,
+footer a {
   color: black;
   border: 1px solid black;
 
@@ -112,6 +113,29 @@ main a:hover {
   color: #301c12;
   border: 1px solid;
 }
+
+footer {
+  margin: 200px 0;
+  padding: 80px 120px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+      rgba(35, 71, 103, 0.6),
+      rgba(35, 71, 103, 0.7)
+    ),
+    url("https://img.freepik.com/free-photo/fuji-mountain-cherry-blossoms-spring-japan_335224-231.jpg?w=1800&t=st=1704730476~exp=1704731076~hmac=0341a7560c8ce9e6336c76abdf8daba3f96a1583609a37c7c279e667b90f60e0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  font-size: 50px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+.banner-paragraph {
+  color: white;
+font-size: 17px;}
 
 .gallery-container {
   background-color: #f0edec63;
@@ -174,22 +198,18 @@ img {
   vertical-align: middle;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -206,19 +226,16 @@ img {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -227,7 +244,6 @@ img {
   top: 0;
 }
 
-/* Container for image text */
 .caption-container {
   text-align: center;
   background-color: #222;
@@ -241,13 +257,11 @@ img {
   clear: both;
 }
 
-/* Six columns side by side */
 .column {
   float: left;
   width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
   width: 100%;
