@@ -128,7 +128,6 @@ main p {
 }
 
 .gallery-responsive {
-  display: block;
   aspect-ratio: auto;
   padding: 18px;
   width: 100%;
