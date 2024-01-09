@@ -419,4 +419,7 @@ img {
   .sheCodes {
     font-size: 15px;
   }
+  .gallery-box {
+    display: none;
+  }
 }
