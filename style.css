@@ -31,12 +31,12 @@ header h1 {
   font-family: "Dancing Script", cursive;
   color: white;
   text-shadow: 1px 1px 2px black;
-  padding: 160px 0;
+  padding: 100px 0;
 }
 header p {
   font-size: 35px;
   font-weight: 400;
-  line-height: 30px;
+
   color: white;
   text-shadow: 2px 2px 2px black;
   font-style: italic;
@@ -58,7 +58,7 @@ header .button {
   transition: all 800ms ease-in-out;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  margin-top: 200px;
+  margin-top: 70px;
 }
 header .button:hover {
   background-color: #f4e7e7;
@@ -418,5 +418,4 @@ img {
   .sheCodes {
     font-size: 15px;
   }
- 
 }
