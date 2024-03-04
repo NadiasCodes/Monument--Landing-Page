@@ -200,20 +200,6 @@ footer .button {
   margin-top: 22px;
 }
 
-.social-links a {
-  margin: 0 20px;
-  transition: all 500ms ease-in-out;
-  background-color: #f1f0ee;
-
-  padding: 14px 20px;
-  font-size: 26px;
-}
-.social-links a:hover {
-  background-color: var(--main-color);
-  color: #301c12;
-  border: 1px solid;
-  border-radius: 10px;
-}
 .project-info {
   font-size: 20px;
 }
@@ -228,7 +214,7 @@ footer .button {
 .sheCodes {
   font-size: 20px;
   margin: 0px;
-  padding: 20px;
+  
 }
 .sheCodes a {
   text-decoration: none;
